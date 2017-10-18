@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ProyectoClinica.Ordenes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.valoracion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Citas.idCita)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.valoracion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Citas.idCita)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idConsulta }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idConsulta }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idConsulta })
+        </td>
+    </tr>
+}
+
+</table>

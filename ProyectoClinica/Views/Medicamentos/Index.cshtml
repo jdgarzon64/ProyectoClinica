@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProyectoClinica.Medicamentos>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idInventario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dosis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Farmacia.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idInventario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dosis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Farmacia.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idMedicamento }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idMedicamento }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idMedicamento })
+        </td>
+    </tr>
+}
+
+</table>
