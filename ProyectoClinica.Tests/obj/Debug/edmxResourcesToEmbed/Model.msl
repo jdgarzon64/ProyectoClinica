@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoFinalIngenieriaModelTestStoreContainer" CdmEntityContainer="ProyectoFinalIngenieriaEntitiesTest">
+    <EntitySetMapping Name="Citas">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Citas">
+        <MappingFragment StoreEntitySet="Citas">
+          <ScalarProperty Name="idCita" ColumnName="idCita" />
+          <ScalarProperty Name="idMedico" ColumnName="idMedico" />
+          <ScalarProperty Name="idPaciente" ColumnName="idPaciente" />
+          <ScalarProperty Name="idEnfermedad" ColumnName="idEnfermedad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enfermedades">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Enfermedades">
+        <MappingFragment StoreEntitySet="Enfermedades">
+          <ScalarProperty Name="idEnfermedad" ColumnName="idEnfermedad" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Farmaceutas">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Farmaceutas">
+        <MappingFragment StoreEntitySet="Farmaceutas">
+          <ScalarProperty Name="idFarmaceuta" ColumnName="idFarmaceuta" />
+          <ScalarProperty Name="idFarmacia" ColumnName="idFarmacia" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Farmacia">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Farmacia">
+        <MappingFragment StoreEntitySet="Farmacia">
+          <ScalarProperty Name="idFarmacia" ColumnName="idFarmacia" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medicamentos">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Medicamentos">
+        <MappingFragment StoreEntitySet="Medicamentos">
+          <ScalarProperty Name="idMedicamento" ColumnName="idMedicamento" />
+          <ScalarProperty Name="idInventario" ColumnName="idInventario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="dosis" ColumnName="dosis" />
+          <ScalarProperty Name="idFarmacia" ColumnName="idFarmacia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MedicamentosConsultas">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.MedicamentosConsultas">
+        <MappingFragment StoreEntitySet="MedicamentosConsultas">
+          <ScalarProperty Name="idMConsulta" ColumnName="idMConsulta" />
+          <ScalarProperty Name="idMedicamento" ColumnName="idMedicamento" />
+          <ScalarProperty Name="idConsulta" ColumnName="idConsulta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medicos">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Medicos">
+        <MappingFragment StoreEntitySet="Medicos">
+          <ScalarProperty Name="idMedico" ColumnName="idMedico" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ordenes">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Ordenes">
+        <MappingFragment StoreEntitySet="Ordenes">
+          <ScalarProperty Name="idConsulta" ColumnName="idConsulta" />
+          <ScalarProperty Name="valoracion" ColumnName="valoracion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pacientes">
+      <EntityTypeMapping TypeName="ProyectoFinalIngenieriaModelTest.Pacientes">
+        <MappingFragment StoreEntitySet="Pacientes">
+          <ScalarProperty Name="idPacientes" ColumnName="idPacientes" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="eps" ColumnName="eps" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

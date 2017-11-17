@@ -8,6 +8,8 @@ C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\Proyec
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\ProyectoClinica.Tests.dll.config
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\ProyectoClinica.Tests.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\ProyectoClinica.Tests.pdb
+C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -20,9 +22,10 @@ C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\Proyec
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.Optimization.dll
-C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\ProyectoClinica.pdb
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\ProyectoClinica.dll.config
+C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -33,7 +36,6 @@ C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\Proyec
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\System.Web.Optimization.xml
-C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\EntityFramework.xml
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica.Tests\bin\Debug\es\System.Web.Razor.resources.dll
