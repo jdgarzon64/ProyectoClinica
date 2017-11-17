@@ -11,7 +11,7 @@ namespace ProyectoClinica.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
-    {
+    {/*
         [TestMethod]
         public void Index()
         {
@@ -50,5 +50,6 @@ namespace ProyectoClinica.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+    */
     }
 }
