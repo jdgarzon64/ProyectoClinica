@@ -7,18 +7,18 @@ namespace ProyectoClinica.Tests.Controllers
     [TestClass]
     public class PacientesTest
     {
-        PacientesController controller = new PacientesController();
+        readonly PacientesController controller = new PacientesController();
 
         [TestMethod]
         public void TestPacientesDelete()
         {
-            Assert.IsNotNull(controller.DeleteConfirmed(2));
+            Assert.IsNotNull(controller.DeleteConfirmed(8));
         }
 
         [TestMethod]
         public void TestPacientesFind()
         {
-            Assert.AreNotEqual("System.Web.Mvc.HttpNotFoundResult", controller.Details(3).ToString());
+            Assert.AreNotEqual("System.Web.Mvc.HttpNotFoundResult", controller.Details(6).ToString());
         }
      
     }

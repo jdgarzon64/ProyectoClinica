@@ -15,14 +15,14 @@ namespace ProyectoClinica.Tests.Controllers
     public class EnfermedadesTest
     {
 
-        EnfermedadesController controller = new EnfermedadesController();
+        readonly EnfermedadesController controller = new EnfermedadesController();
         [TestMethod]
         public void TestEnfermedadesCreate()
         {
            
             Enfermedades enfermedad = new Enfermedades();
-            enfermedad.nombre = "enfermedadPrueba";
-            enfermedad.descripcion = "enfermedadPruebaDescripcion";
+            enfermedad.nombre = "enfermedadPrueba4";
+            enfermedad.descripcion = "enfermedadPruebaDescripcion4";
             Assert.IsNotNull(controller.Create(enfermedad));
            
         }
@@ -30,13 +30,13 @@ namespace ProyectoClinica.Tests.Controllers
         [TestMethod]
         public void TestEnfermedadesDelete()
         {
-            Assert.IsNotNull(controller.DeleteConfirmed(1004));
+            Assert.IsNotNull(controller.DeleteConfirmed(1008));
         }
 
         [TestMethod]
         public void TestEnfermedadesFind()
         {
-           Assert.AreNotEqual("System.Web.Mvc.HttpNotFoundResult", controller.Details(1).ToString());
+           Assert.AreNotEqual("System.Web.Mvc.HttpNotFoundResult", controller.Details(2).ToString());
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace ProyectoClinica.Tests.Controllers
             Enfermedades enfermedad = new Enfermedades();
             enfermedad.nombre = "enfermedadPruebaEDITADA";
             enfermedad.descripcion = "enfermedadPruebaDescripcionEDITADA";
-            enfermedad.idEnfermedad = 1005;
+            enfermedad.idEnfermedad = 2;
             Assert.IsNotNull(controller.Edit(enfermedad));
 
         }

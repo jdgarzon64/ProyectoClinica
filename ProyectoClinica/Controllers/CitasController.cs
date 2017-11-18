@@ -12,7 +12,7 @@ namespace ProyectoClinica.Controllers
 {
     public class CitasController : Controller
     {
-        private ProyectoFinalIngenieriaEntities db = new ProyectoFinalIngenieriaEntities();
+         private readonly ProyectoFinalIngenieriaEntities db = new ProyectoFinalIngenieriaEntities();
 
         // GET: Citas
         public ActionResult Index()

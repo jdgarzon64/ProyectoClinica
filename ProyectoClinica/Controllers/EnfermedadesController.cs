@@ -12,7 +12,7 @@ namespace ProyectoClinica.Controllers
 {
     public class EnfermedadesController : Controller
     {
-        private ProyectoFinalIngenieriaEntities db = new ProyectoFinalIngenieriaEntities();
+        private readonly ProyectoFinalIngenieriaEntities db = new ProyectoFinalIngenieriaEntities();
 
         // GET: Enfermedades
         public ActionResult Index()

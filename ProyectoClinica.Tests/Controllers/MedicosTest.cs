@@ -8,14 +8,14 @@ namespace ProyectoClinica.Tests.Controllers
     public class MedicosTest
     {
 
-        MedicosController controller = new MedicosController();
+        readonly MedicosController controller = new MedicosController();
         [TestMethod]
         public void TestMedicosCreate()
         {
 
             Medicos medico = new Medicos();
-            medico.nombre = "Nombre Prueba";
-            medico.apellido = "apellido prueba";
+            medico.nombre = "Nombre Prueba4";
+            medico.apellido = "apellido prueba4";
             medico.identificacion = "10941234";
             Assert.IsNotNull(controller.Create(medico));
 
@@ -24,7 +24,7 @@ namespace ProyectoClinica.Tests.Controllers
         [TestMethod]
         public void TestMedicosDelete()
         {
-            Assert.IsNotNull(controller.DeleteConfirmed(2));
+            Assert.IsNotNull(controller.DeleteConfirmed(6));
         }
 
         [TestMethod]

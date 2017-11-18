@@ -99,6 +99,7 @@ C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\Proyec
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\obj\Debug\ProyectoClinica.csprojResolveAssemblyReference.cache
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\obj\Debug\ProyectoClinica.csproj.CoreCompileInputs.cache
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\obj\Debug\ProyectoClinica.dll
 C:\Users\Juan David\Documents\Visual Studio 2017\Projects\ProyectoClinica\ProyectoClinica\obj\Debug\ProyectoClinica.pdb
